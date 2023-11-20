@@ -72,11 +72,11 @@ export default function Home() {
 
       <div className="container mx-auto p-8 flex flex-col items-center justify-center">
         {/* Image Row */}
-        <div className="mb-8 flex items-center justify-center ">
+        <div className="mb-8 flex items-center justify-center">
           <img
             src="./assets/images/profile.jpg"
             alt="Your Image"
-            className="rounded-full h-32 w-32 object-cover mr-4"
+            className="rounded-full h-32 w-32 object-cover mr-4 border-4"
           />
         </div>
 

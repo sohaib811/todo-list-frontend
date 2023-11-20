@@ -17,7 +17,7 @@ const Accordion = ({ title, children }) => {
         <div className="w-full md:w-[80%] lg:w-[50%] mb-4">
             {/* Accordion Trigger */}
             <button
-                className={`w-full backdrop-blur rounded flex justify-between w-full text-white text-bolder text-left p-4 bg-transparent border-t border-b border-l border-r border-gray-300 ${isOpen ? 'bg-gray-200' : ''
+                className={`w-full backdrop-blur rounded flex justify-between text-white text-bolder text-left p-4 bg-transparent border-t border-b border-l border-r border-gray-300 ${isOpen ? 'bg-gray-200' : ''
                     }`}
                 onClick={toggleAccordion}
             >
